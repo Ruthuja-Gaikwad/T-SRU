@@ -14,7 +14,6 @@ class Solution:
         a=Trie()
         n=len(board)
         m=len(board[0])
-        vis=set()
         l=[]
         for i in range(len(words)):
             a.insert(words[i],i)
